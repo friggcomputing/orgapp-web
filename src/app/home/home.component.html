@@ -1,0 +1,12 @@
+<div class="carousel-container">
+  <img [src]="currentImage" alt="" [@slide]="currentImage" />
+</div>
+<form id="global-search" class="p-3 mt-5 d-flex flex-column align-items-center justify-content-center">
+  <h1 class="mt-5">Find an event around you !</h1>
+  <div class="p-3 d-flex flex-row w-75 mt-2">
+    <input type="search" class="form-control p-4" placeholder="Try « Party in Paris » or « Meetup in London »"/>
+  </div>
+</form>
+<app-home-events-types></app-home-events-types>
+<app-home-how-to></app-home-how-to>
+<app-footer></app-footer>

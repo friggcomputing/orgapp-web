@@ -1,0 +1,15 @@
+@import "../../assets/scss/main";
+
+.how-to-use {
+  background: $gray-900;
+  margin: 50px 0;
+  padding: 2rem 1rem;
+
+  h4, h5, p, a {
+    color: $white;
+  }
+
+  h4 {
+    text-align: center;
+  }
+}

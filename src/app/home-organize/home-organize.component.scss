@@ -1,0 +1,12 @@
+.image-wrapper {
+  overflow: hidden;
+  height: 250px;
+  border-radius: 3px;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    transform: translateY(-15%);
+  }
+}

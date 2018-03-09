@@ -1,0 +1,30 @@
+<div class="container pt-4">
+  <h4 class="p-2">Explore corporate events</h4>
+  <div class="row">
+    <div class="col-md-4 col-lg-3 mb-4" *ngFor="let category of categories['corporate']">
+      <a class="card">
+        <div class="img-wrapper card-img-top">
+          <img [src]="category.image" [alt]="category.imageAlt">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{category.title}}</h5>
+          <p class="card-text">{{category.description}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <h4 class="p-2">Explore personal events</h4>
+  <div class="row">
+    <div class="col-md-4 col-lg-3 mb-4" *ngFor="let category of categories['personal'] ">
+      <a class="card">
+        <div class="img-wrapper card-img-top">
+          <img [src]="category.image" [alt]="category.imageAlt">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{category.title}}</h5>
+          <p class="card-text">{{category.description}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
